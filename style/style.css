@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 82%;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+/* header style*/
+#new-year-heading {
+    margin: 50px 0 100px 0;
+}
+
+.header-background {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%), url(../resources/BannerImage.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.new-year {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.party {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.container-info{
+    text-align: center;
+    padding: 150px 250px 150px 250px;
+}
