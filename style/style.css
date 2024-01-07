@@ -46,12 +46,13 @@
 }
 
 /* main sections style*/
-.main-section{
+.main-section {
     margin-bottom: 100px;
 }
+
 .container-item {
     text-align: center;
-    padding: 0;
+
 }
 
 .offer-title {
@@ -68,8 +69,6 @@
     font-family: Open sans;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 0;
-   
 }
 
 .title {
@@ -77,8 +76,75 @@
     font-family: Open sans;
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
-.new-logo{
+
+.new-logo {
     width: 600px;
     height: 400px;
+}
+
+/*greeting-container style*/
+.section-background1 {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%), url(../resources/Vectorrr.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.welcome {
+    text-align: left;
+    max-width: 500px;
+    padding: 100px 30px 100px 30px;
+    
+}
+
+.greeting-title {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 70px;
+    margin-bottom: 20px;
+
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Open sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.button {
+    color: #FFF;
+    background: none;
+    text-align: center;
+    font-family: Open sans;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.button:hover{
+    color: greenyellow;
+}
+
+.logo-2024 {
+    width: 230px;
+    height: 340px;
+    margin-left: 40px;
 }
