@@ -214,7 +214,7 @@
 
 }
 
-.description-black {
+.common-paragraph {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Open sans';
     font-size: 16px;
@@ -274,37 +274,40 @@
     font-weight: 900;
 }
 
-.holiday-sale{
+.holiday-sale {
     text-align: center;
     padding: 0 100px 30px 100px;
 }
 
 /* image-container style*/
 
-.image-container{
+.image-container {
     height: 510px;
     background-image: url(../resources/Rectangle2.png);
     background-repeat: no-repeat;
     background-size: 100% 150px;
     background-position: center bottom;
     position: relative;
-    
+
 }
-.Rectangle1{
+
+.Rectangle1 {
     position: absolute;
     z-index: 2;
     width: 350px;
     height: 360px;
     left: 648px;
 }
-.Group75{
+
+.Group75 {
     position: absolute;
     z-index: 3;
     width: 550px;
     height: 450px;
     top: 60px;
 }
-.Group44{
+
+.Group44 {
     position: absolute;
     z-index: 4;
     width: 250px;
@@ -314,29 +317,78 @@
 }
 
 /* awesome portfolio style*/
-.portfolio{
+.portfolio {
     text-align: left;
     width: 700px;
     margin-bottom: 30px;
 }
 
 
-#portfolio-title{
+#portfolio-title {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.grid-img{
+
+.grid-img {
     width: 310px;
     height: 340px;
     border-radius: 16px;
 }
-.grid-img:hover{
+
+.grid-img:hover {
     box-shadow: 0px 6px 50px 0px rgba(11, 11, 11, 0.484);
-    
+
 }
-.grid-container{
+
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 25px;
+}
+
+/*News latter section style*/
+.newsletter-background {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.message-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.subscribe-button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 50px 0px 0px 50px;
+    background: #F00;
+    border: none;
+    padding: 20px 45px;
+    margin-right: 0;
+}
+input[type="email"]{
+    border: none;
+    background: #FFF;
+    width: 360px;
+    height: 62px;
+    border-radius: 0 50px 50px 0;
+    text-align:center;
+    
+}
+.subscribe{
+    display: flex;
+    margin: 40px 50px 0px 50px;
+}
+.newsletter-container{
+    padding: 65px 175px;
+    text-align: center;
+}
+#Newsletter-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
