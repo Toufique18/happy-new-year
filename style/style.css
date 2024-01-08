@@ -13,7 +13,7 @@
 
 /* header style
  font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;*/
+    font-family: ''Open sans'', sans-serif;*/
 #new-year-heading {
     margin: 50px 0 100px 0;
 }
@@ -57,7 +57,7 @@
 
 .offer-title {
     color: #F00;
-    font-family: Open Sans;
+    font-family: 'Open sans';
     font-size: 75px;
     font-weight: 700;
     margin-top: 0;
@@ -66,14 +66,14 @@
 
 .holiday-title {
     color: #F00;
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 20px;
     font-weight: 500;
 }
 
 .title {
     color: #070211;
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -114,7 +114,7 @@
 
 .description {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 15px;
@@ -126,7 +126,7 @@
     color: #FFF;
     background: none;
     text-align: center;
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -156,7 +156,7 @@
 
 .place-time {
     color: #070211;
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 25px;
     font-weight: 600;
     line-height: 40px;
@@ -165,17 +165,12 @@
 
 .option-color {
     color: #F00;
-    font-family: Open sans;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 40px;
-    text-transform: capitalize;
 }
 
 .btn-primary {
     border-radius: 5px;
     background: #F00;
-    font-family: Open sans;
+    font-family: 'Open sans';
     border: 0px;
     color: white;
     font-size: 20px;
@@ -221,7 +216,7 @@
 
 .description-black {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -251,9 +246,70 @@
 
 .year {
     color: #F00;
-    font-family: Open sans;
+    font-family: 'Open sans';
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
+.year-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+/* holiday sale section*/
+
+.text-style {
+    color: #070211;
+    font-family: 'Open sans';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-text-style {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.holiday-sale{
+    text-align: center;
+    padding: 0 100px 30px 100px;
+}
+
+/* image-container style*/
+
+.image-container{
+    height: 510px;
+    background-image: url(../resources/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    background-position: center bottom;
+    position: relative;
+    
+}
+.Rectangle1{
+    position: absolute;
+    z-index: 2;
+    width: 350px;
+    height: 360px;
+    left: 648px;
+}
+.Group75{
+    position: absolute;
+    z-index: 3;
+    width: 550px;
+    height: 450px;
+    top: 60px;
+}
+.Group44{
+    position: absolute;
+    z-index: 4;
+    width: 250px;
+    height: 250px;
+    left: 520px;
+    top: 65px;
+}
+
