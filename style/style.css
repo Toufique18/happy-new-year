@@ -46,6 +46,25 @@
 }
 
 /* main sections style*/
+.common-title {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+}
+
+.common-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
 .main-section {
     margin-bottom: 100px;
 }
@@ -203,26 +222,6 @@
 
 }
 
-
-.title-up-comming-offer {
-    color: #070211;
-    font-family: 'Merriweather';
-    font-size: 40px;
-    font-weight: 900;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-
-}
-
-.common-paragraph {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Open sans';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-
-}
-
 .picture {
     width: 300px;
     height: 300px;
@@ -296,7 +295,7 @@
     z-index: 2;
     width: 350px;
     height: 360px;
-    left: 648px;
+    left: 685px;
 }
 
 .Group75 {
@@ -312,7 +311,7 @@
     z-index: 4;
     width: 250px;
     height: 250px;
-    left: 520px;
+    left: 558px;
     top: 65px;
 }
 
@@ -371,24 +370,74 @@
     padding: 20px 45px;
     margin-right: 0;
 }
-input[type="email"]{
+
+input[type="email"] {
     border: none;
     background: #FFF;
     width: 360px;
     height: 62px;
     border-radius: 0 50px 50px 0;
-    text-align:center;
-    
+    text-align: center;
+
 }
-.subscribe{
+
+.subscribe {
     display: flex;
     margin: 40px 50px 0px 50px;
 }
-.newsletter-container{
+
+.newsletter-container {
     padding: 65px 175px;
     text-align: center;
 }
-#Newsletter-title{
+
+#Newsletter-title {
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+.footter-section {
+    background: #070211;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 500;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 30px 0;
+}
+.office-address{
+    width: 250px;
+}
+.logo-icons{
+    width: 15px;
+    height: 15px;
+}
+
+.social-media-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.social-media{
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-button{
+    border: none;
+    background: none;
+}
+.footer-button:hover{
+    color: greenyellow;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 100px 0;
 }
