@@ -415,6 +415,9 @@ input[type="email"] {
 .office-address{
     width: 250px;
 }
+.office-web{
+    margin-right: 80px;
+}
 .logo-icons{
     width: 15px;
     height: 15px;
