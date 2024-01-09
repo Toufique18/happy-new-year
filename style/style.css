@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%), url(../resources/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%), url(../resources/Vectorrr.png);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -136,7 +136,7 @@
     font-family: 'Open sans';
     font-size: 16px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 
@@ -423,6 +423,11 @@ input[type="email"] {
     width: 50px;
     height: 50px;
     margin-right: 10px;
+    border-radius: 100%;
+    
+}
+.social-media-logo:hover{
+    box-shadow: 0px 6px 50px 0px rgb(249, 250, 249);
 }
 .social-media{
     text-align: center;
